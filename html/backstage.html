@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>后台管理系统</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/backstage.css">
+</head>
+<body>
+<!-- 头部导航部分 -->
+	<div class="myheader">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">
+						<img src="../img/qdjjlogo.gif" alt="logo" style="width:75px ">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">会员管理</a></li>
+						<li><a href="#">内容管理</a></li>
+						<li><a href="#">系统分析</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" date-toggle="dropdown" role="button" aria-expanded="false">系统维护
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu " role="menu">
+								<li><a href="#">恢复系统</a></li>
+								<li><a href="#">系统备份</a></li>
+								<li><a href="#">软件升级</a></li>
+								<li><a href="#">诊断工具</a></li>
+								<li><a href="#">系统日志</a></li>
+								<li><a href="#">断开链接</a></li>
+								<li><a href="#">修改登录密码</a></li>
+								<li><a href="#">重新启动</a></li>
+							</ul>
+						</li>
+					</ul>
+					<button type="button" class="btn btn-success navbar-btn navbar-right ">登录
+					</button>
+					<form action="" class="navbar-form navbar-right">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="请输入搜索内容...">
+						</div>
+						<button type="submit" class="btn btn-info">搜索</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</div>
+<!-- 主体内容 -->
+	<div class="mybody container">
+		<div class="row">
+<!-- 左边主体内容部分 -->
+			<div class="leftmenu col-md-3 col-sm-5">			
+				<div class="list-group">
+					<a href="#" class="list-group-item active">信息统计</a>
+					<a href="#" class="list-group-item">数据统计</a>
+					<a href="#" class="list-group-item">日志统计</a>
+					<a href="#" class="list-group-item">流量统计</a>
+					<a href="#" class="list-group-item">访问统计</a>
+					<a href="#" class="list-group-item">历史统计</a>
+					<a href="#" class="list-group-item">信息同级</a>
+					<a href="#" class="list-group-item">日访问量</a>
+					<a href="#" class="list-group-item">周访问量</a>
+					<a href="#" class="list-group-item">月访问量</a>
+					<a href="#" class="list-group-item">年访问量</a>
+					<a href="#" class="list-group-item">允许访问</a>
+					<a href="#" class="list-group-item">阻止访问</a>
+				</div>
+			</div>
+<!-- 右边主体内容部分 -->
+			<div class="content col-md-9 col-sm-7">
+			<!-- 路径导航部分 -->
+				<ol class="breadcrumb">
+					<li><a href="#">青岛家教网后台管理</a></li>
+					<li><a href="#">后台会员管理</a></li>
+					<li><a href="#">后台系统分析</a></li>
+					<li class="active">访问数据统计</li>
+				</ol>
+				<!-- 主体内容table列表 -->
+				<div class="table-responsive">
+					<table class="table table-bordered table-hover">
+						<thead>
+							<tr>
+								<th>姓名</th>
+								<th>年龄</th>
+								<th>性别</th>
+								<th>学历</th>
+								<th>籍贯</th>
+								<th>访问量</th>
+								<th>个人简历</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>张三</td>
+								<td>34</td>
+								<td>男</td>
+								<td>大专</td>
+								<td>四川</td>
+								<td>35</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>李四</td>
+								<td>24</td>
+								<td>男</td>
+								<td>本科</td>
+								<td>山东</td>
+								<td>21</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>晓丽</td>
+								<td>33</td>
+								<td>女</td>
+								<td>本科</td>
+								<td>江西</td>
+								<td>27</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>小王</td>
+								<td>26</td>
+								<td>男</td>
+								<td>研究生</td>
+								<td>北京</td>
+								<td>29</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>小张</td>
+								<td>28</td>
+								<td>男</td>
+								<td>本科</td>
+								<td>上海</td>
+								<td>42</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>小梅</td>
+								<td>25</td>
+								<td>女</td>
+								<td>大专</td>
+								<td>湖北</td>
+								<td>53</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>老王</td>
+								<td>42</td>
+								<td>男</td>
+								<td>本科</td>
+								<td>哈尔滨</td>
+								<td>61</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>张杰</td>
+								<td>23</td>
+								<td>男</td>
+								<td>大专</td>
+								<td>青岛</td>
+								<td>21</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>韩梅梅</td>
+								<td>24</td>
+								<td>女</td>
+								<td>本科</td>
+								<td>杭州</td>
+								<td>36</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+							<tr>
+								<td>李磊</td>
+								<td>31</td>
+								<td>男</td>
+								<td>博士</td>
+								<td>江苏</td>
+								<td>74</td>
+								<td><a href="#">详情</a></td>
+							</tr>
+						</tbody>
+					</table>
+<!-- 分页部分 -->
+					<nav class="pull col-md-offset-4">
+						<ul class="pagination pagination-sm">
+							<li class="disabled">
+								<a href="#" aria-label="previous">
+									<span aria-hidden="true">&laquo;</span>
+								</a>
+							</li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li>
+								<a href="#" aria-label="previous">
+									<span aria-hidden="true">&raquo;</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="myfooter">
+		<p>Copyright © 2003～2008&nbsp;版权所有 青岛家教网</p>
+	</div>
+
+	<script src="../js/jquery-3.1.0.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script>
+		$(".navbar-nav a"). click(function(e){
+			$(this).tab("show");
+		});
+	</script>
+</body>
+</html>

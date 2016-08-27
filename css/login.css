@@ -1,0 +1,22 @@
+html,body{
+	background-image: url(../img/beijing.gif);
+}
+
+.container{
+	width: 500px;
+	height: 300px;
+	margin: 150px auto;
+	background: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.container h2{
+	font-weight: bold;
+	font-size: 36px;
+}
+.wrap .login .input-group{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,13 @@
+/*头部背景颜色设置*/
+.myheader{
+	background: #ccc;
+}
+/*底部样式设置*/
+.myfooter{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	color: #767676;
+	border-top: 1px solid #e5e5e5;
+	text-align: center;
+}
